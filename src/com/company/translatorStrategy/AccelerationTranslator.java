@@ -7,18 +7,12 @@ import java.util.regex.Pattern;
 public class AccelerationTranslator implements Translator {
     @Override
     public boolean isApplicableToRAPID(String instruction) {
-        if (instruction.startsWith("AccSet")) {
-            return true;
-        }
-        return false;
+        return instruction.startsWith("AccSet");
     }
 
     @Override
     public boolean isApplicableToVPlus(String instruction) {
-        if (instruction.startsWith("ACCEL")) {
-            return true;
-        }
-        return false;
+        return instruction.startsWith("ACCEL");
     }
 
     @Override
