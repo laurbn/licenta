@@ -76,11 +76,22 @@ public class NestedStatements {
         for (int i1 = 0; i1 < instructions.size(); i1++) {
             String instruction = instructions.get(i1);
             if (instruction.startsWith("END")) {
-                instructions.set(i1,nestedInstructions.get(currentTransformedEND));
+                instructions.set(i1, nestedInstructions.get(currentTransformedEND));
                 currentTransformedEND++;
             }
 
         }
+    }
+
+    public static void solveSimplifiedNesting(List<String> instructions) {
+        for (int i1 = 0; i1 < instructions.size(); i1++) {
+            String instruction = instructions.get(i1);
+            if (instruction.startsWith("END")) {
+                instructions.set(i1, "END");
+            }
+
+        }
+        System.out.println(instructions);
     }
 }
 

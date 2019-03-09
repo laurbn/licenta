@@ -23,20 +23,15 @@ public class WhileTranslator implements Translator {
             Pattern p = Pattern.compile("(?<=(WHILE ))(.+?)(?=( DO))");
             Matcher m = p.matcher(instructions.get(index));
             List<String> conditionValue = new ArrayList<>();
-            conditionValue.add(getConditionValue(instructions, index, p));
-            System.out.println(conditionValue);
-            System.out.println(translators.size());
+            conditionValue.add(getWhileConditionValue(instructions, index, p));
                 for (int i = 0; i < translators.size(); i++) {
                     Translator translator = translators.get(i);
-                    System.out.println(translators.get(i));
                     if (translator.isApplicableToRAPID(conditionValue.get(0))) {
-                        System.out.println("a intrat aici" + i);
                         translator.translateRAPID(instructions, index);
                         break;
                     }
                 }
                 instructions.set(index, "WHILE " + instructions.get(index) + " DO");
-            System.out.println(instructions.get(index));
 
         }
 
@@ -46,18 +41,18 @@ public class WhileTranslator implements Translator {
             Pattern p = Pattern.compile("(?<=(WHILE ))(.+?)(?=( DO))");
             Matcher m = p.matcher(instructions.get(index));
             List<String> conditionValue = new ArrayList<>();
-            conditionValue.add(getConditionValue(instructions, index, p));
+            conditionValue.add(getWhileConditionValue(instructions, index, p));
             for (int i = 0; i < translators.size(); i++) {
                 Translator translator = translators.get(i);
-                if (translator.isApplicableToVPlus(conditionValue.toString())) {
-                    translator.translateRAPID(instructions, index);
+                if (translator.isApplicableToVPlus(conditionValue.get(0))) {
+                    translator.translateVPlus(instructions, index);
                     break;
                 }
             }
             instructions.set(index, "WHILE " + instructions.get(index) + " DO");
 
         }
-    private String getConditionValue(List<String> instructions, Integer index, Pattern p) {
+    private String getWhileConditionValue(List<String> instructions, Integer index, Pattern p) {
         Matcher m = p.matcher(instructions.get(index));
         String value = new String();
         while (m.find()) {

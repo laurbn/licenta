@@ -1,6 +1,7 @@
 package com.company;
 
 import com.company.input.ProgramReader;
+import com.company.input.RapidReader;
 import com.company.input.VPlusReader;
 import com.company.translatorStrategy.AccelerationTranslator;
 import com.company.translatorStrategy.ForTranslator;
@@ -10,20 +11,38 @@ import com.company.translatorStrategy.WhileTranslator;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 
 public class Main {
     public static List<Translator> translators = new ArrayList<>();
 
     public static void main(String[] args) {
-
         File filePath = new File("C:/Users/lrnts/IdeaProjects/licentatest/src/com/company/program");
-        ProgramReader programReader = new VPlusReader();
-        List<String> instructions = null;
-        instructions = getInstructions(filePath, programReader);
 
-        NestedStatements.solveNesting(instructions);
-        lineByLineTranslation(instructions);
+        Scanner programmingLanguage = new Scanner(System.in);
+        System.out.print("Insert 'V' for VPLus or 'R' for RAPID");
+        String programmingChoice = programmingLanguage.next();
+        ProgramReader programReader;
+        List<String> instructions = null;
+        switch (programmingChoice) {
+            case "V":
+                programReader = new VPlusReader();
+                instructions = getInstructions(filePath, programReader);
+
+                NestedStatements.solveNesting(instructions);
+                lineByLineTranslation(instructions, programmingChoice);
+                break;
+            case "R":
+                programReader = new VPlusReader();
+                instructions = getInstructions(filePath, programReader);
+
+                NestedStatements.solveSimplifiedNesting(instructions);
+                lineByLineTranslation(instructions, programmingChoice);
+                break;
+            default:
+                System.out.println("Looking forward to the Weekend");
+        }
     }
 
     private static List<String> getInstructions(File filePath, ProgramReader programReader) {
@@ -36,17 +55,17 @@ public class Main {
         return programReader.getInstructions(content);
     }
 
-    private static void lineByLineTranslation(List<String> instructions) {
+    private static void lineByLineTranslation(List<String> instructions, String programmingChoice) {
         initializeTranslatorList();
         for (int i1 = 0; i1 < instructions.size(); i1++) {
             String instruction = instructions.get(i1);
             for (int i = 0; i < translators.size(); i++) {
                 Translator translator = translators.get(i);
-                if (translator.isApplicableToRAPID(instruction)) {
+                if (translator.isApplicableToRAPID(instruction)&programmingChoice.contains("R")) {
                     translator.translateRAPID(instructions, i1);
                 }
                 else
-                    if(translator.isApplicableToVPlus(instruction)){
+                    if(translator.isApplicableToVPlus(instruction)&programmingChoice.contains("V")){
                         translator.translateVPlus(instructions, i1);
                     }
             }
@@ -58,5 +77,6 @@ public class Main {
         translators.add(new AccelerationTranslator());
         translators.add(new ForTranslator());
         translators.add(new WhileTranslator());
+        translators.add(new IfTranslator());
     }
 }
