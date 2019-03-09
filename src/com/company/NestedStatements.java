@@ -33,10 +33,7 @@ public class NestedStatements {
         List<Integer> tracker = new ArrayList<>();
         tracker.add(1);
 
-        System.out.println("nestedInstructions content: " + nestedInstructions);
         Collections.reverse(nestedInstructions);
-        System.out.println("after reversing " + nestedInstructions);
-        System.out.println("nestedInstructions size:" + nestedInstructions.size());
 
         for (int i = 1; i < nestedInstructions.size(); i++) {
             tracker.add(0);
@@ -45,8 +42,6 @@ public class NestedStatements {
             if (nestedInstructions.get(i).contains("END"))
                 tracker.set(i, tracker.get(i - 1) + 1);
         }
-
-        System.out.println("tracker list: " + tracker);
 
         int i = 0, j = 1;
         int removedInstructions = 0;
@@ -73,9 +68,7 @@ public class NestedStatements {
                     passedAnotherEnd = 1;
                 }
             }
-            System.out.println("nestedInstructions content after algoRITM PLS WORK: " + nestedInstructions);
         }
-        System.out.println("nestedInstructions content after algoRITM PLS WORK: " + nestedInstructions);
 
         //compare with the list from arguments
         Collections.reverse(nestedInstructions);

@@ -3,7 +3,9 @@ package com.company;
 import com.company.input.ProgramReader;
 import com.company.input.VPlusReader;
 import com.company.translatorStrategy.AccelerationTranslator;
+import com.company.translatorStrategy.ForTranslator;
 import com.company.translatorStrategy.Translator;
+import com.company.translatorStrategy.WhileTranslator;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -14,6 +16,7 @@ public class Main {
     public static List<Translator> translators = new ArrayList<>();
 
     public static void main(String[] args) {
+
         File filePath = new File("C:/Users/lrnts/IdeaProjects/licentatest/src/com/company/program");
         ProgramReader programReader = new VPlusReader();
         List<String> instructions = null;
@@ -42,11 +45,18 @@ public class Main {
                 if (translator.isApplicableToRAPID(instruction)) {
                     translator.translateRAPID(instructions, i1);
                 }
+                else
+                    if(translator.isApplicableToVPlus(instruction)){
+                        translator.translateVPlus(instructions, i1);
+                    }
             }
         }
+        System.out.println(instructions);
     }
 
     private static void initializeTranslatorList() {
         translators.add(new AccelerationTranslator());
+        translators.add(new ForTranslator());
+        translators.add(new WhileTranslator());
     }
 }
