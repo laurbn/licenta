@@ -23,7 +23,7 @@ public class Main {
         /*Scanner programmingLanguage = new Scanner(System.in);
         System.out.print("Insert 'V' for VPLus or 'R' for RAPID");
         String programmingChoice = programmingLanguage.next();*/
-        String programmingChoice = "V";
+        String programmingChoice = "R";
         ProgramReader programReader;
         List<String> instructions = null;
         switch (programmingChoice) {
@@ -83,5 +83,6 @@ public class Main {
         translators.add(new IfTranslator());
         translators.add(new ElseTranslator());
         translators.add(new CaseTranslator());
+        translators.add(new ValueTranslator());
     }
 }

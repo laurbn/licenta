@@ -1,7 +1,7 @@
 WHILE
 WHILE AccSet 2, 2 DO
-ACCEL 5, 5
 END
-CASE number OF
+TEST number
+CASE 1, 2, 3 :
 END
 END

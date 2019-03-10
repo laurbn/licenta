@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec66d37a-b927-4675-bef6-02b90fc21123" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/CaseTranslator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ElseTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ValueTranslator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/licentatest/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/licentatest/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/licentatest/com/company/NestedStatements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/licentatest/com/company/NestedStatements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/licentatest/com/company/program" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/licentatest/com/company/program" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/IfTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/IfTranslator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/NestedStatements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/NestedStatements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/program" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/program" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-294">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="319">
+              <caret line="85" column="47" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getInstructions#0;class#Main#0" />
@@ -39,10 +33,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/ValueTranslator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="42" column="60" lean-forward="true" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/CaseTranslator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+            <state relative-caret-position="289">
+              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#286#287#0" expanded="true" />
@@ -55,22 +65,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/program">
+        <entry file="file://$PROJECT_DIR$/src/com/company/translatorStrategy/ForTranslator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="206">
+              <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/NestedStatements.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/program">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -122,10 +132,11 @@
         <option value="$PROJECT_DIR$/src/com/company/IfTranslator.java" />
         <option value="$PROJECT_DIR$/src/com/company/ElseTranslator.java" />
         <option value="$PROJECT_DIR$/src/com/company/translatorStrategy/WhileTranslator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/NestedStatements.java" />
-        <option value="$PROJECT_DIR$/src/com/company/program" />
         <option value="$PROJECT_DIR$/src/com/company/CaseTranslator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/program" />
+        <option value="$PROJECT_DIR$/src/com/company/ValueTranslator.java" />
       </list>
     </option>
   </component>
@@ -189,7 +200,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552211317095" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552213288034" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company/FileReader.java" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -243,7 +254,7 @@
       <workItem from="1551732279957" duration="1041000" />
       <workItem from="1551952108739" duration="5606000" />
       <workItem from="1551961255679" duration="12977000" />
-      <workItem from="1552120404119" duration="53877000" />
+      <workItem from="1552120404119" duration="55703000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1551961626913</created>
@@ -273,11 +284,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552140930222</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="implemented elseif + case translators.">
+      <created>1552211364841</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552211364841</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136373000" />
+    <option name="totallyTimeSpent" value="138199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -297,7 +315,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25167784" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25167784" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Duplicate detector" weight="0.3297587" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -307,7 +325,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32573727" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32573727" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3994638" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.30428955" />
@@ -332,7 +350,8 @@
     <MESSAGE value="implemented strategy pattern" />
     <MESSAGE value="implemented WhileTranslator" />
     <MESSAGE value="implemented IFstatementTranslator" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented IFstatementTranslator" />
+    <MESSAGE value="implemented elseif + case translators." />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented elseif + case translators." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -400,16 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/translatorStrategy/ForTranslator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -527,17 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getInstructions#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/NestedStatements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -548,23 +546,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="85" column="47" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getInstructions#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/program">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/translatorStrategy/ForTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/CaseTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        <state relative-caret-position="289">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#286#287#0" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
             <element signature="e#415#416#0" expanded="true" />
             <element signature="e#468#469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ValueTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="42" column="60" lean-forward="true" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
           </folding>
         </state>
       </provider>
