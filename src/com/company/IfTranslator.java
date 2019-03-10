@@ -29,13 +29,13 @@ public class IfTranslator implements Translator {
         conditionValue.add(getIfConditionValue(instructions, index, p));
         for (int i = 0; i < translators.size(); i++) {
             Translator translator = translators.get(i);
-            System.out.println(translators.get(i));
             if (translator.isApplicableToRAPID(conditionValue.get(0))) {
                 translator.translateRAPID(instructions, index);
+                instructions.set(index, "IF " + instructions.get(index) + " THEN");
                 break;
             }
         }
-        instructions.set(index, "IF " + instructions.get(index) + " THEN");
+        //instructions.set(index, "IF " + instructions.get(index) + " THEN");
 
     }
 
@@ -47,13 +47,13 @@ public class IfTranslator implements Translator {
         conditionValue.add(getIfConditionValue(instructions, index, p));
         for (int i = 0; i < translators.size(); i++) {
             Translator translator = translators.get(i);
-            System.out.println(translators.get(i));
             if (translator.isApplicableToVPlus(conditionValue.get(0))) {
                 translator.translateVPlus(instructions, index);
+                instructions.set(index, "IF " + instructions.get(index) + " THEN");
                 break;
             }
         }
-        instructions.set(index, "IF " + instructions.get(index) + " THEN");
+        //instructions.set(index, "IF " + instructions.get(index) + " THEN");
     }
 
     private String getIfConditionValue(List<String> instructions, Integer index, Pattern p) {

@@ -20,8 +20,6 @@ public class NestedStatements {
                 nestedInstructions.add("WHILE");
             if (instruction.startsWith("IF"))
                 nestedInstructions.add("IF");
-            if (instruction.startsWith("CASE"))
-                nestedInstructions.add("TEST");
             if (instruction.startsWith("DO"))
                 nestedInstructions.add("DO");
             if (instruction.startsWith("CASE"))
@@ -32,16 +30,18 @@ public class NestedStatements {
 
         List<Integer> tracker = new ArrayList<>();
         tracker.add(1);
-
+        System.out.println(nestedInstructions);
         Collections.reverse(nestedInstructions);
+        System.out.println(nestedInstructions);
 
         for (int i = 1; i < nestedInstructions.size(); i++) {
             tracker.add(0);
-            if ((nestedInstructions.get(i).contains("FOR")) || (nestedInstructions.contains("WHILE")) || (nestedInstructions.get(i).contains("IF")) || (nestedInstructions.get(i).contains("TEST")) || (nestedInstructions.get(i).contains("DO")))
+            if ((nestedInstructions.get(i).contains("FOR")) || (nestedInstructions.contains("WHILE")) || (nestedInstructions.get(i).contains("TEST")) ||(nestedInstructions.get(i).contains("IF")) || (nestedInstructions.get(i).contains("DO")))
                 tracker.set(i, tracker.get(i - 1) - 1);
             if (nestedInstructions.get(i).contains("END"))
                 tracker.set(i, tracker.get(i - 1) + 1);
         }
+        System.out.println(tracker);
 
         int i = 0, j = 1;
         int removedInstructions = 0;
@@ -86,12 +86,11 @@ public class NestedStatements {
     public static void solveSimplifiedNesting(List<String> instructions) {
         for (int i1 = 0; i1 < instructions.size(); i1++) {
             String instruction = instructions.get(i1);
-            if (instruction.startsWith("END")) {
+            if (instruction.startsWith("END")&(!instruction.contains("ENDIF"))) {
                 instructions.set(i1, "END");
             }
 
         }
-        System.out.println(instructions);
     }
 }
 

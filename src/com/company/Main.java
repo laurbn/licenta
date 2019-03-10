@@ -20,9 +20,10 @@ public class Main {
     public static void main(String[] args) {
         File filePath = new File("C:/Users/lrnts/IdeaProjects/licentatest/src/com/company/program");
 
-        Scanner programmingLanguage = new Scanner(System.in);
+        /*Scanner programmingLanguage = new Scanner(System.in);
         System.out.print("Insert 'V' for VPLus or 'R' for RAPID");
-        String programmingChoice = programmingLanguage.next();
+        String programmingChoice = programmingLanguage.next();*/
+        String programmingChoice = "V";
         ProgramReader programReader;
         List<String> instructions = null;
         switch (programmingChoice) {
@@ -37,7 +38,7 @@ public class Main {
                 programReader = new VPlusReader();
                 instructions = getInstructions(filePath, programReader);
 
-                NestedStatements.solveSimplifiedNesting(instructions);
+                //NestedStatements.solveSimplifiedNesting(instructions);
                 lineByLineTranslation(instructions, programmingChoice);
                 break;
             default:
@@ -57,7 +58,8 @@ public class Main {
 
     private static void lineByLineTranslation(List<String> instructions, String programmingChoice) {
         initializeTranslatorList();
-        for (int i1 = 0; i1 < instructions.size(); i1++) {
+        int i1=0;
+        while(i1<instructions.size()) {
             String instruction = instructions.get(i1);
             for (int i = 0; i < translators.size(); i++) {
                 Translator translator = translators.get(i);
@@ -69,6 +71,7 @@ public class Main {
                         translator.translateVPlus(instructions, i1);
                     }
             }
+            i1++;
         }
         System.out.println(instructions);
     }
@@ -78,5 +81,7 @@ public class Main {
         translators.add(new ForTranslator());
         translators.add(new WhileTranslator());
         translators.add(new IfTranslator());
+        translators.add(new ElseTranslator());
+        translators.add(new CaseTranslator());
     }
 }
