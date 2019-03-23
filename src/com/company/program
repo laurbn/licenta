@@ -1,7 +1,4 @@
-WHILE
-WHILE AccSet 2, 2 DO
-END
-TEST number
-CASE 1, 2, 3 :
-END
+WHILE ACCEL 2, 2
+ACCEL 4, 4
+data1 BAND data2
 END

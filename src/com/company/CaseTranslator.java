@@ -19,7 +19,7 @@ public class CaseTranslator implements Translator {
 
     @Override
     public void translateRAPID(List<String> instructions, Integer index) {
-       Pattern p = Pattern.compile("(?<=\\bTEST\\s)(\\w+)");
+        Pattern p = Pattern.compile("(?<=\\bCASE\\s)(\\w+)");
         Matcher m = p.matcher(instructions.get(index));
         String testValue = new String();
         while (m.find()) {
