@@ -87,5 +87,14 @@ public class Main {
         translators.add(new anyTranslator());
         translators.add(new ExitTranslator());
         translators.add(new BitAndTranslator());
+        translators.add(new SqrtTranslator());
+        translators.add(new ApproTranslator());
+        translators.add(new DepartTranslator());
+        translators.add(new Atan2Translator());
+        translators.add(new AndTranslator());
+        translators.add(new BorTranslator());
+        translators.add(new OrTranslator());
+        translators.add(new BitXorTranslator());
+        translators.add(new XorTranslator());
     }
 }
