@@ -96,5 +96,12 @@ public class Main {
         translators.add(new OrTranslator());
         translators.add(new BitXorTranslator());
         translators.add(new XorTranslator());
+        translators.add(new ABORTandStopTranslator());
+        translators.add(new OPENandSTOpenTranslator());
+        translators.add(new CLOSEandSTCloseTranslator());
+        translators.add(new AbsTranslator());
+        translators.add(new FOPENandOpenTranslator());
+        translators.add(new FCLOSEandCloseTranslator());
+        translators.add(new ATTACHTranslator());
     }
 }

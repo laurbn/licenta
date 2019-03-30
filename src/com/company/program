@@ -1,12 +1,5 @@
-WHILE SQRT(4) DO
-SQRT(3)
-ACCEL 2,2
-APPRO safe, 20
-DEPART 30
-ATAN2(0.234, value2)
-before AND after
-before2 OR after2
-firstvalue BOR secondvalue
-previous BXOR next
-123 XOR 456
+WHILE SQRT(6) DO
+ATTACH (5, 4)
+FOPENW (5) "MassiveAttack.doc"
+FCLOSE (5)
 END

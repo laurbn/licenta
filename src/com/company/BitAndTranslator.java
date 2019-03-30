@@ -34,8 +34,6 @@ public class BitAndTranslator implements Translator {
             testValue2 = m2.group();
             break;
         }
-        System.out.println(testValue1);
-        System.out.println(testValue2);
         instructions.set(index, testValue1 + " BXOR " + testValue2);
     }
 
@@ -55,8 +53,6 @@ public class BitAndTranslator implements Translator {
             testValue2 = m2.group();
             break;
         }
-        System.out.println(testValue1);
-        System.out.println(testValue2);
         instructions.set(index, "BitAnd("+testValue1+", "+testValue2+")");
     }
 }

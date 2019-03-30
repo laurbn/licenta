@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec66d37a-b927-4675-bef6-02b90fc21123" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/AndTranslator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ApproTranslator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Atan2Translator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BitXorTranslator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BorTranslator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DepartTranslator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/OrTranslator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/SqrtTranslator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/XorTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABORTandStopTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ATTACHTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AbsTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/CLOSEandSTCloseTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/FCLOSEandCloseTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/FOPENandOpenTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/OPENandSTOpenTranslator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/licentatest/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/licentatest/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/licentatest/com/company/program" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/licentatest/com/company/program" afterDir="false" />
@@ -33,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+            <state relative-caret-position="183">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getInstructions#0;class#Main#0" />
@@ -44,66 +42,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/AndTranslator.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/program">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="55" selection-end-column="64" />
+            <state relative-caret-position="51">
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/ATTACHTranslator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/BitXorTranslator.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/FOPENandOpenTranslator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+            <state relative-caret-position="85">
+              <caret line="146" column="12" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/XorTranslator.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/FCLOSEandCloseTranslator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="4" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/BitAndTranslator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="59" selection-end-column="74" />
+            <state relative-caret-position="183">
+              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/program">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -168,11 +148,18 @@
         <option value="$PROJECT_DIR$/src/com/company/BorTranslator.java" />
         <option value="$PROJECT_DIR$/src/com/company/AndTranslator.java" />
         <option value="$PROJECT_DIR$/src/com/company/OrTranslator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/BitAndTranslator.java" />
         <option value="$PROJECT_DIR$/src/com/company/BitXorTranslator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/XorTranslator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ABORTandStopTranslator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/OPENandSTOpenTranslator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/CLOSEandSTCloseTranslator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AbsTranslator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/BitAndTranslator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/FOPENandOpenTranslator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ATTACHTranslator.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/program" />
-        <option value="$PROJECT_DIR$/src/com/company/XorTranslator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/FCLOSEandCloseTranslator.java" />
       </list>
     </option>
   </component>
@@ -236,7 +223,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553872819860" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553971740493" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads" />
@@ -297,7 +284,7 @@
       <workItem from="1553441665978" duration="2396000" />
       <workItem from="1553636338211" duration="599000" />
       <workItem from="1553803092320" duration="10690000" />
-      <workItem from="1553866126355" duration="6452000" />
+      <workItem from="1553866126355" duration="47248000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1551961626913</created>
@@ -348,11 +335,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553361311297</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="implemented APPRO, DEPART, ATAN2, XOR, BXOR, OR, BOR, AND, BAND, BitOr, BitXor;">
+      <created>1553873082734</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553873082734</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191506000" />
+    <option name="totallyTimeSpent" value="232302000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,7 +366,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2738255" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23020135" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3297587" />
@@ -381,7 +375,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32573727" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32573727" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3994638" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.30428955" />
@@ -410,7 +404,8 @@
     <MESSAGE value="implemented elseif + case translators." />
     <MESSAGE value="implemented valueTranslator (Case subinstr)" />
     <MESSAGE value="implemented BitAndTranslator log and for bits" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented BitAndTranslator log and for bits" />
+    <MESSAGE value="implemented APPRO, DEPART, ATAN2, XOR, BXOR, OR, BOR, AND, BAND, BitOr, BitXor;" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented APPRO, DEPART, ATAN2, XOR, BXOR, OR, BOR, AND, BAND, BitOr, BitXor;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -600,20 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/translatorStrategy/AccelerationTranslator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/IfTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -640,17 +621,6 @@
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/AccSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#85#86#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -713,26 +683,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/BorTranslator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/XorTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        <state relative-caret-position="493">
+          <caret line="56" column="4" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
             <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/BitAndTranslator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/ABORTandStopTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="59" selection-end-column="74" />
+        <state relative-caret-position="323">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -751,20 +729,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/AndTranslator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/CLOSEandSTCloseTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="55" selection-end-column="64" />
+        <state relative-caret-position="307">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/OPENandSTOpenTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="30" column="74" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/BorTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AbsTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AccSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#85#86#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/translatorStrategy/AccelerationTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/BitAndTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AndTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="651" selection-start-line="651" selection-end-line="651" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+        <state relative-caret-position="183">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getInstructions#0;class#Main#0" />
@@ -772,23 +843,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/program">
+    <entry file="file://$PROJECT_DIR$/src/com/company/ATTACHTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="302">
+          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/XorTranslator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/program">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="4" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+        <state relative-caret-position="51">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/FOPENandOpenTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="146" column="12" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/FCLOSEandCloseTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
